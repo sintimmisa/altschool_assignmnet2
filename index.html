@@ -9,8 +9,9 @@
   <body>
     <header class="header"></header>
     <main class="main">
+        <div class="container">
       <section class="col-1">
-        <img src="" alt />
+        <img src="./img/Logo.png" alt ="logo"/>
         <h2>For Individual</h2>
         <p>
           Start benefiting from the wellness experience. For companies looking
@@ -21,56 +22,62 @@
         <section class="form-content">
           <div class="input-box">
             <label for="first_name">First Name</label>
-            <input type="text" name="first_name" id="" required />
+            <input type="text" name="first_name" id="" required placeholder="Enter First name"/>
           </div>
 
           <div class="input-box">
             <label for="first_name">Last Name</label>
-            <input type="text" name="first_name" id="" required />
+            <input type="text" name="first_name" id="" required placeholder=" Enter Last name"/>
           </div>
 
           <div class="input-box">
+            <label for="first_name">Gender</label>
             <select name="" id="">
-              <option value="" disabled hidden>Select here</option>
+              <option value="" disabled selected hidden>Select here</option>
               <option value="male">Male</option>
               <option value="female">Female</option>
             </select>
           </div>
-        </section>
+        
         <div class="input-box">
           <label for="dob">Date of Birth</label>
           <input type="date" name="dob" id="" required />
         </div>
         <div class="input-box">
           <label for="kg">Weight(KG)</label>
-          <input type="text" name="weight" id="" required />
+          <input type="number" name="weight" id="" required placeholder="Enter Weight" />
         </div>
 
         <div class="input-box">
           <label for="cm">Height(CM)</label>
-          <input type="date" name="height" id="" required />
+          <input type="number" name="height" id="" required placeholder="Enter height here..."/>
         </div>
 
-        <div class="input-box">
+        <div class="input-box w-full">
+            <label for="cm">Activity Level </label>
           <select name="" id="">
-            <option value="" disabled hidden>Select here</option>
+            <option value="" disabled selected hidden>Select here</option>
             <option value="">Activity 1</option>
             <option value="">Activity 2</option>
             <option value="">Activity 3</option>
           </select>
         </div>
 
-        <div class="input-box">
+        <div class="input-box w-full">
           <label for="cm">Password</label>
           <input type="password" name="pwd" id="" required />
+         
         </div>
         <button class="btn">Register</button>
+        <p>
+            By clicking Register, you agree to our <a href="">Terms of Use</a> and
+            our <a href="">Privacy Policy</a>
+          </p>
+        </section>
       </form>
 
-      <p>
-        By clicking Register, you agree to our <a href="">Terms of Use</a> and
-        our <a href="">Privacy Policy</a>
-      </p>
+      
+    </div>
     </main>
     <footer class="footer"></footer>
   </body>
